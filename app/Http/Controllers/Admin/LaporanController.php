@@ -493,7 +493,6 @@ class LaporanController extends Controller
                     $sheetNeraca->setCellValue('E12', "='Rekap area'!\$X\$20");
                     $sheetNeraca->setCellValue('F12', "='Rekap area'!\$Y\$20");
                     $sheetNeraca->setCellValue('I12', "='Rekap area'!\$Z\$20");
-
                     // Memperbaiki Baris Total (Row 13) agar menjumlahkan baris 7 s.d 12
                     $sheetNeraca->setCellValue('E13', "=SUM(E7:E12)");
                     $sheetNeraca->setCellValue('F13', "=SUM(F7:F12)");
